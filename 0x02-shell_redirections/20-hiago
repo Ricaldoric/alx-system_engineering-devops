@@ -1,2 +1,2 @@
 #!/bin/bash
-cat <filename> |tr "c" " "|tr "C" " "
+echo <filename> |tr -d "c" "C"
